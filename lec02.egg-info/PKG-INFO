@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: lec02
-Version: 0.1.0
-Summary: Data Engineering Homework lec02
-Requires-Python: >=3.10
-Requires-Dist: requests
-Requires-Dist: flask
-Requires-Dist: fastavro
