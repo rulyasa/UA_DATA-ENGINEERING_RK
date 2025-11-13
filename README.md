@@ -97,6 +97,7 @@
   -H </span><span><span class="hljs-string">"Content-Type: application/json"</span></span><span> \
   -d </span><span><span class="hljs-string">"{ \"raw_dir\": \"./file_storage/raw/sales/2022-08-09\", \"stg_dir\": \"./file_storage/stg/sales/2022-08-09\" }"</span></span><span>
 </span></span></code></div></div></pre>
+<h2 data-start="3000" data-end="3018">Running check_jobs script</h2>
 <hr data-start="3306" data-end="3309">
 <h2 data-start="3311" data-end="3326">Run tests</h2>
 <pre class="overflow-visible!" data-start="3328" data-end="3349"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pytest -v
