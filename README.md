@@ -28,6 +28,9 @@
 <pre class="overflow-visible!" data-start="2127" data-end="2188"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>stg/sales/&lt;</span><span><span class="hljs-built_in">date</span></span><span>&gt;/sales_&lt;</span><span><span class="hljs-built_in">date</span></span><span>&gt;_&lt;page&gt;.avro
 </span></span></code></div></div></pre>
 </li>
+<li data-start="1974" data-end="2023">
+<p data-start="1976" data-end="2023">Ідемпотентна: перед записом очищає директорію</p>
+</li>
 </ul>
 </li>
 <li data-start="2190" data-end="2337">
