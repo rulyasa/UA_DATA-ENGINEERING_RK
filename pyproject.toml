@@ -1,0 +1,19 @@
+[project]
+name = "lec02"
+version = "0.1.0"
+description = "Data Engineering Homework lec02"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "flask",
+    "fastavro",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+include = ["job1*", "job2*"]
+exclude = ["tests*", "file_storage*"]
