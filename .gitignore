@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Data directories
+file_storage/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
