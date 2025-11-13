@@ -99,7 +99,7 @@
 <pre class="overflow-visible!" data-start="3328" data-end="3349"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pytest -v
 </span></span></code></div></div></pre>
 <hr data-start="3351" data-end="3354">
-<h2 data-start="3356" data-end="3372">🛠 Tech Stack</h2>
+<h2 data-start="3356" data-end="3372">Tech Stack</h2>
 <ul data-start="3374" data-end="3458">
 <li data-start="3374" data-end="3389">
 <p data-start="3376" data-end="3389">Python 3.12</p>
@@ -121,5 +121,5 @@
 </li>
 </ul>
 <hr data-start="3460" data-end="3463">
-<h2 data-start="3465" data-end="3480">👨‍💻 Author</h2>
+<h2 data-start="3465" data-end="3480">Author</h2>
 <p data-start="3482" data-end="3542"><strong data-start="3482" data-end="3498">Ruslan Konyk</strong></p>
