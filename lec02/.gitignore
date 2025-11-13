@@ -1,19 +1,6 @@
-﻿# Python
-__pycache__/
-*.py[cod]
+﻿venv/
 *.egg-info/
-*.egg
-venv/
-env/
-ENV/
-
-# OS
-Thumbs.db
+__pycache__/
+*.pyc
+*.log
 .DS_Store
-
-# IDEs
-.vscode/
-.idea/
-
-# local storage
-file_storage/

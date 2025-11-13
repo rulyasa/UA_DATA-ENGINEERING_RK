@@ -1,10 +1,13 @@
-﻿from flask import Flask, request, jsonify
+﻿from converter import convert_json_to_avro
 
-app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def hello():
-    return 'Hello, job_json_to_avro!'
+def main():
+    raw_dir = "job_fetch_raw/raw_dir"
+    stg_dir = "job_json_to_avro/stg_dir"
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8082)
+    print("🚀 Convertation JSON → Avro...")
+    convert_json_to_avro(raw_dir, stg_dir)
+
+
+if __name__ == "__main__":
+    main()

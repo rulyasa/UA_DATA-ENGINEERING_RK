@@ -1,10 +1,22 @@
-﻿from flask import Flask, request, jsonify
+﻿import json
+from fetcher import fetch_data, save_raw_data
 
-app = Flask(__name__)
+CONFIG_PATH = "job_fetch_raw/config.json"
 
-@app.route('/', methods=['GET'])
-def hello():
-    return 'Hello, job_fetch_raw!'
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8081)
+def main():
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        config = json.load(f)
+
+    api_url = config["api_url"]
+    raw_dir = config["raw_dir"]
+
+    print("Loading data...")
+    data = fetch_data(api_url)
+
+    print("Saving data in raw_dir...")
+    save_raw_data(data, raw_dir)
+
+
+if __name__ == "__main__":
+    main()
