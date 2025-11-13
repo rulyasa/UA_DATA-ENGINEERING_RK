@@ -1,4 +1,4 @@
-<h2 data-start="1728" data-end="1750">🧩 Project Overview</h2>
+<h2 data-start="1728" data-end="1750">Project Overview</h2>
 <p data-start="1752" data-end="1789">Цей проєкт реалізує <strong data-start="1772" data-end="1788">ETL pipeline</strong>:</p>
 <ol data-start="1791" data-end="2337">
 <li data-start="1791" data-end="2023">
@@ -48,8 +48,8 @@
 </ul>
 </li>
 </ol>
-<h1 data-start="1688" data-end="1726">📦 Data Engineering Homework (lec02)</h1><hr data-start="2339" data-end="2342">
-<h2 data-start="2344" data-end="2367">📁 Project Structure</h2>
+<h1 data-start="1688" data-end="1726">Data Engineering Homework (lec02)</h1><hr data-start="2339" data-end="2342">
+<h2 data-start="2344" data-end="2367">Project Structure</h2>
 <pre class="overflow-visible!" data-start="2369" data-end="2701"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>lec02/
 │
 ├── job1/
@@ -75,7 +75,7 @@
 └── README</span><span><span class="hljs-selector-class">.md</span></span><span>
 </span></span></code></div></div></pre>
 <hr data-start="2703" data-end="2706">
-<h2 data-start="2708" data-end="2726">🚀 Running Job1</h2>
+<h2 data-start="2708" data-end="2726">Running Job1</h2>
 <p data-start="2728" data-end="2753">Start API extraction job:</p>
 <pre class="overflow-visible!" data-start="2755" data-end="2792"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-powershell"><span><span>python job1/main.py
 </span></span></code></div></div></pre>
@@ -85,7 +85,7 @@
   -d </span><span><span class="hljs-string">"{ \"date\": \"2022-08-09\", \"raw_dir\": \"./file_storage/raw/sales/2022-08-09\" }"</span></span><span>
 </span></span></code></div></div></pre>
 <hr data-start="2995" data-end="2998">
-<h2 data-start="3000" data-end="3018">🔄 Running Job2</h2>
+<h2 data-start="3000" data-end="3018">Running Job2</h2>
 <p data-start="3020" data-end="3041">Start Avro converter:</p>
 <pre class="overflow-visible!" data-start="3043" data-end="3080"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-powershell"><span><span>python job2/main.py
 </span></span></code></div></div></pre>
@@ -95,7 +95,7 @@
   -d </span><span><span class="hljs-string">"{ \"raw_dir\": \"./file_storage/raw/sales/2022-08-09\", \"stg_dir\": \"./file_storage/stg/sales/2022-08-09\" }"</span></span><span>
 </span></span></code></div></div></pre>
 <hr data-start="3306" data-end="3309">
-<h2 data-start="3311" data-end="3326">🧪 Run tests</h2>
+<h2 data-start="3311" data-end="3326">Run tests</h2>
 <pre class="overflow-visible!" data-start="3328" data-end="3349"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>pytest -v
 </span></span></code></div></div></pre>
 <hr data-start="3351" data-end="3354">
